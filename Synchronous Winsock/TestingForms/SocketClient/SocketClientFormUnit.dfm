@@ -1,271 +1,103 @@
 object SocketClientForm: TSocketClientForm
   Left = 716
   Top = 193
-  Width = 736
-  Height = 585
+  Width = 683
+  Height = 415
   Caption = 'Tcp socket client (port 10000)'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -14
+  Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
   DesignSize = (
-    718
-    538)
-  PixelsPerInch = 120
-  TextHeight = 16
+    667
+    377)
+  PixelsPerInch = 96
+  TextHeight = 13
   object Memo: TMemo
-    Left = 10
-    Top = 10
-    Width = 702
-    Height = 473
+    Left = 344
+    Top = 0
+    Width = 320
+    Height = 338
     Anchors = [akLeft, akTop, akRight, akBottom]
     Lines.Strings = (
-      #1055#1088#1080#1084#1077#1088' Xml '#1076#1083#1103' '#1086#1090#1087#1088#1072#1074#1082#1080
-      ''
-      '<CATALOG>'
-      '<CD>'
-      '<TITLE>Empire Burlesque</TITLE>'
-      '<ARTIST>Bob Dylan</ARTIST>'
-      '<COUNTRY>USA</COUNTRY>'
-      '<COMPANY>Columbia</COMPANY>'
-      '<PRICE>10.90</PRICE>'
-      '<YEAR>1985</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Hide your heart</TITLE>'
-      '<ARTIST>Bonnie Tyler</ARTIST>'
-      '<COUNTRY>UK</COUNTRY>'
-      '<COMPANY>CBS Records</COMPANY>'
-      '<PRICE>9.90</PRICE>'
-      '<YEAR>1988</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Greatest Hits</TITLE>'
-      '<ARTIST>Dolly Parton</ARTIST>'
-      '<COUNTRY>USA</COUNTRY>'
-      '<COMPANY>RCA</COMPANY>'
-      '<PRICE>9.90</PRICE>'
-      '<YEAR>1982</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Still got the blues</TITLE>'
-      '<ARTIST>Gary Moore</ARTIST>'
-      '<COUNTRY>UK</COUNTRY>'
-      '<COMPANY>Virgin records</COMPANY>'
-      '<PRICE>10.20</PRICE>'
-      '<YEAR>1990</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Eros</TITLE>'
-      '<ARTIST>Eros Ramazzotti</ARTIST>'
-      '<COUNTRY>EU</COUNTRY>'
-      '<COMPANY>BMG</COMPANY>'
-      '<PRICE>9.90</PRICE>'
-      '<YEAR>1997</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>One night only</TITLE>'
-      '<ARTIST>Bee Gees</ARTIST>'
-      '<COUNTRY>UK</COUNTRY>'
-      '<COMPANY>Polydor</COMPANY>'
-      '<PRICE>10.90</PRICE>'
-      '<YEAR>1998</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Sylvias Mother</TITLE>'
-      '<ARTIST>Dr.Hook</ARTIST>'
-      '<COUNTRY>UK</COUNTRY>'
-      '<COMPANY>CBS</COMPANY>'
-      '<PRICE>8.10</PRICE>'
-      '<YEAR>1973</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Maggie May</TITLE>'
-      '<ARTIST>Rod Stewart</ARTIST>'
-      '<COUNTRY>UK</COUNTRY>'
-      '<COMPANY>Pickwick</COMPANY>'
-      '<PRICE>8.50</PRICE>'
-      '<YEAR>1990</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Romanza</TITLE>'
-      '<ARTIST>Andrea Bocelli</ARTIST>'
-      '<COUNTRY>EU</COUNTRY>'
-      '<COMPANY>Polydor</COMPANY>'
-      '<PRICE>10.80</PRICE>'
-      '<YEAR>1996</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>When a man loves a woman</TITLE>'
-      '<ARTIST>Percy Sledge</ARTIST>'
-      '<COUNTRY>USA</COUNTRY>'
-      '<COMPANY>Atlantic</COMPANY>'
-      '<PRICE>8.70</PRICE>'
-      '<YEAR>1987</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Black angel</TITLE>'
-      '<ARTIST>Savage Rose</ARTIST>'
-      '<COUNTRY>EU</COUNTRY>'
-      '<COMPANY>Mega</COMPANY>'
-      '<PRICE>10.90</PRICE>'
-      '<YEAR>1995</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>1999 Grammy Nominees</TITLE>'
-      '<ARTIST>Many</ARTIST>'
-      '<COUNTRY>USA</COUNTRY>'
-      '<COMPANY>Grammy</COMPANY>'
-      '<PRICE>10.20</PRICE>'
-      '<YEAR>1999</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>For the good times</TITLE>'
-      '<ARTIST>Kenny Rogers</ARTIST>'
-      '<COUNTRY>UK</COUNTRY>'
-      '<COMPANY>Mucik Master</COMPANY>'
-      '<PRICE>8.70</PRICE>'
-      '<YEAR>1995</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Big Willie style</TITLE>'
-      '<ARTIST>Will Smith</ARTIST>'
-      '<COUNTRY>USA</COUNTRY>'
-      '<COMPANY>Columbia</COMPANY>'
-      '<PRICE>9.90</PRICE>'
-      '<YEAR>1997</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Tupelo Honey</TITLE>'
-      '<ARTIST>Van Morrison</ARTIST>'
-      '<COUNTRY>UK</COUNTRY>'
-      '<COMPANY>Polydor</COMPANY>'
-      '<PRICE>8.20</PRICE>'
-      '<YEAR>1971</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Soulsville</TITLE>'
-      '<ARTIST>Jorn Hoel</ARTIST>'
-      '<COUNTRY>Norway</COUNTRY>'
-      '<COMPANY>WEA</COMPANY>'
-      '<PRICE>7.90</PRICE>'
-      '<YEAR>1996</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>The very best of</TITLE>'
-      '<ARTIST>Cat Stevens</ARTIST>'
-      '<COUNTRY>UK</COUNTRY>'
-      '<COMPANY>Island</COMPANY>'
-      '<PRICE>8.90</PRICE>'
-      '<YEAR>1990</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Stop</TITLE>'
-      '<ARTIST>Sam Brown</ARTIST>'
-      '<COUNTRY>UK</COUNTRY>'
-      '<COMPANY>A and M</COMPANY>'
-      '<PRICE>8.90</PRICE>'
-      '<YEAR>1988</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Bridge of Spies</TITLE>'
-      '<ARTIST>T'#39'Pau</ARTIST>'
-      '<COUNTRY>UK</COUNTRY>'
-      '<COMPANY>Siren</COMPANY>'
-      '<PRICE>7.90</PRICE>'
-      '<YEAR>1987</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Private Dancer</TITLE>'
-      '<ARTIST>Tina Turner</ARTIST>'
-      '<COUNTRY>UK</COUNTRY>'
-      '<COMPANY>Capitol</COMPANY>'
-      '<PRICE>8.90</PRICE>'
-      '<YEAR>1983</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Midt om natten</TITLE>'
-      '<ARTIST>Kim Larsen</ARTIST>'
-      '<COUNTRY>EU</COUNTRY>'
-      '<COMPANY>Medley</COMPANY>'
-      '<PRICE>7.80</PRICE>'
-      '<YEAR>1983</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Pavarotti Gala Concert</TITLE>'
-      '<ARTIST>Luciano Pavarotti</ARTIST>'
-      '<COUNTRY>UK</COUNTRY>'
-      '<COMPANY>DECCA</COMPANY>'
-      '<PRICE>9.90</PRICE>'
-      '<YEAR>1991</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>The dock of the bay</TITLE>'
-      '<ARTIST>Otis Redding</ARTIST>'
-      '<COUNTRY>USA</COUNTRY>'
-      '<COMPANY>Atlantic</COMPANY>'
-      '<PRICE>7.90</PRICE>'
-      '<YEAR>1987</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Picture book</TITLE>'
-      '<ARTIST>Simply Red</ARTIST>'
-      '<COUNTRY>EU</COUNTRY>'
-      '<COMPANY>Elektra</COMPANY>'
-      '<PRICE>7.20</PRICE>'
-      '<YEAR>1985</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Red</TITLE>'
-      '<ARTIST>The Communards</ARTIST>'
-      '<COUNTRY>UK</COUNTRY>'
-      '<COMPANY>London</COMPANY>'
-      '<PRICE>7.80</PRICE>'
-      '<YEAR>1987</YEAR>'
-      '</CD>'
-      '<CD>'
-      '<TITLE>Unchain my heart</TITLE>'
-      '<ARTIST>Joe Cocker</ARTIST>'
-      '<COUNTRY>USA</COUNTRY>'
-      '<COMPANY>EMI</COMPANY>'
-      '<PRICE>8.20</PRICE>'
-      '<YEAR>1987</YEAR>'
-      '</CD>'
-      '</CATALOG>')
+      '<s:Envelope '
+      'xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">'
+      '  <s:Header>'
+      '    <Action '
+      'xmlns="http://schemas.microsoft.com/ws/2005/05/addressin'
+      'g/none" '
+      's:mustUnderstand="1">http://tempuri.org/IMeasurementServi'
+      'ce/GetRoute</Action>'
+      '  </s:Header>'
+      '  <s:Body>'
+      '    <GetRoute xmlns="http://tempuri.org/">'
+      '      <barcode>77-1024-0043/1</barcode>'
+      '    </GetRoute>'
+      '  </s:Body>'
+      '</s:Envelope>')
     ScrollBars = ssVertical
     TabOrder = 0
   end
   object btSend: TButton
-    Left = 108
-    Top = 493
-    Width = 93
-    Height = 30
+    Left = 88
+    Top = 349
+    Width = 75
+    Height = 24
     Anchors = [akLeft, akBottom]
     Caption = 'Send'
     TabOrder = 1
     OnClick = btSendClick
   end
   object btConnect: TButton
-    Left = 10
-    Top = 493
-    Width = 92
-    Height = 30
+    Left = 8
+    Top = 349
+    Width = 75
+    Height = 24
     Anchors = [akLeft, akBottom]
     Caption = 'Connect'
     TabOrder = 2
     OnClick = btConnectClick
   end
   object btDisconnect: TButton
-    Left = 207
-    Top = 493
-    Width = 92
-    Height = 30
+    Left = 168
+    Top = 349
+    Width = 75
+    Height = 24
     Anchors = [akLeft, akBottom]
     Caption = 'Disconnect'
     TabOrder = 3
     OnClick = btDisconnectClick
+  end
+  object btTestCase1: TButton
+    Left = 342
+    Top = 348
+    Width = 75
+    Height = 25
+    Anchors = [akLeft, akBottom]
+    Caption = 'Test case 1'
+    TabOrder = 4
+    OnClick = btTestCase1Click
+  end
+  object cbTesCase2: TButton
+    Left = 432
+    Top = 348
+    Width = 75
+    Height = 25
+    Anchors = [akLeft, akBottom]
+    Caption = 'Tes case 2'
+    TabOrder = 5
+    OnClick = cbTesCase2Click
+  end
+  object memoLog: TMemo
+    Left = 0
+    Top = 0
+    Width = 329
+    Height = 336
+    Anchors = [akLeft, akTop, akBottom]
+    ScrollBars = ssVertical
+    TabOrder = 6
   end
 end
